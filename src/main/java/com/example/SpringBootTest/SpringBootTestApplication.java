@@ -16,7 +16,8 @@ public class SpringBootTestApplication {
     private static void myMethod() {
         Product p = new Product("satadru");
 
-        System.out.println(p.getName());
+
+        System.out.println("My name is :::----"+p.getName());
     }
 
 
